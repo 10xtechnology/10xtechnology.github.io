@@ -1,0 +1,3 @@
+[submodule "schema-mapper"]
+	path = schema-mapper
+	url = https://github.com/10xtechnology/schema-mapper.git
