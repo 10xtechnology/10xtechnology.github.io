@@ -1,0 +1,78 @@
+body {
+    font-family: cursive;
+    background-color: mintcream;
+}
+
+nav {
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin: 1%;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: mintcream;
+    text-align: center;
+}
+
+header {
+    text-align: center;
+
+}
+
+header h2 {
+    font-family: cursive;
+}
+
+h1 {
+    width: 100%;
+    text-align: center;
+}
+
+section {
+    padding: 1%;
+    margin-bottom: 20%;
+    text-align: center;
+}
+
+section p {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 75%;
+  }
+
+.grid-item {
+    display: grid;
+    text-align: right;
+    padding: 1%;
+}
+
+button {
+    border: none; 
+    padding: 1%;
+    background-color: lightblue;
+
+}
+
+button:hover {
+    background-color: lightgreen;
+}
