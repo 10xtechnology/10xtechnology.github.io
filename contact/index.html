@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Contact</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='../main.css'>
+    <script src='main.js'></script>
+    <script src="/components/header.js"></script>
+    <script src="/components/footer.js"></script>
+</head>
+<body>
+    <my-header></my-header>
+    <section>
+        <h1>Contact</h1>
+        <p>
+            Feel free to send us an email at <a href="mailto:info@10xtech.ca">info@10xtech.ca</a> or fill out the contact form below, and we will reach out to you within 1 business day.
+        </p>
+        <form action="https://formspree.io/f/mgvwvojo" method="POST">
+            <div class="grid-container">
+            <div class="grid-item">
+                <label for="name">Name*</label>
+            </div>
+            <div class="grid-item">
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="grid-item">
+                <label for="email">Email*</label>
+            </div>
+            <div class="grid-item">
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="grid-item">
+                <label for="phone">Phone</label>
+            </div>
+            <div class="grid-item">
+                <input type="tel" id="phone" name="phone">
+            </div>
+            <div class="grid-item">
+                <label for="message">Message*</label>
+            </div>
+            <div class="grid-item">
+                <textarea id="message" name="message" required></textarea>
+            </div>
+            
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+    <my-footer></my-footer>
+</body>
+</html>
