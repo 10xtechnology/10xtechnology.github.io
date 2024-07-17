@@ -34,7 +34,7 @@
         "template": "./contact.html",
         "target": "./contact/index.html",
         "content": {
-            "contact_us": "./contact/intro.txt"
+            "intro": "./contact/intro.txt"
         }
     }
 ]
