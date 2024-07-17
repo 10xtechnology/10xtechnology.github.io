@@ -1,0 +1,3 @@
+In the third phase, we begin the development of the software products. We will provide you with regular updates on the progress of the development.
+            We will also provide you with a testing environment where you can test the software products as they are being developed. 
+            Note that feedback at this time must be aligned with the established business requirements, to avoid scope creep. 

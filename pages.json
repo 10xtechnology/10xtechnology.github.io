@@ -1,7 +1,7 @@
 [
     {
         "template": "./home.html",
-        "target": "./src/index.html",
+        "target": "./index.html",
         "content": {
             "who_are_we": "./home/who-are-we.txt",
             "what_do_we_do": "./home/what-do-we-do.txt",
@@ -12,10 +12,29 @@
     },
     {
         "template": "./about.html",
-        "target": "./src/about/index.html",
+        "target": "./about/index.html",
         "content": {
             "our_company": "./about/our-company.txt",
-            "james-bio": "./about/james-bio.txt"
+            "james_bio": "./about/james-bio.txt"
+        }
+    },
+    {
+        "template": "./services.html",
+        "target": "./services/index.html",
+        "content": {
+            "intro": "./services/intro.txt",
+            "audit": "./services/audit.txt",
+            "proposal": "./services/proposal.txt",
+            "development": "./services/development.txt",
+            "deployment": "./services/deployment.txt",
+            "outro": "./services/outro.txt"
+        }
+    },
+    {
+        "template": "./contact.html",
+        "target": "./contact/index.html",
+        "content": {
+            "contact_us": "./contact/intro.txt"
         }
     }
 ]
