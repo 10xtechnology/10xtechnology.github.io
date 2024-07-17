@@ -1,0 +1,4 @@
+In the first phase we set up meetings where we interview your team about a day in the life of your business.
+            We ask about the details of your operations such as how you manage inventory, how you communicate with customers, and how you track sales.
+            Through this audit, we build a model of your business operations. Using this model, we can attempt to identify areas that have the potential 
+            to be improved through employing a custom software product.

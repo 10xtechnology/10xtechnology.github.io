@@ -1,0 +1,40 @@
+[
+    {
+        "template": "./home.html",
+        "target": "./index.html",
+        "content": {
+            "who_are_we": "./home/who-are-we.txt",
+            "what_do_we_do": "./home/what-do-we-do.txt",
+            "where_are_we": "./home/where-are-we.txt",
+            "when_are_we_available": "./home/when-are-we-available.txt",
+            "how_can_we_be_contacted": "./home/how-can-we-be-contacted.txt"
+        }
+    },
+    {
+        "template": "./about.html",
+        "target": "./about/index.html",
+        "content": {
+            "our_company": "./about/our-company.txt",
+            "james_bio": "./about/james-bio.txt"
+        }
+    },
+    {
+        "template": "./services.html",
+        "target": "./services/index.html",
+        "content": {
+            "intro": "./services/intro.txt",
+            "audit": "./services/audit.txt",
+            "proposal": "./services/proposal.txt",
+            "development": "./services/development.txt",
+            "deployment": "./services/deployment.txt",
+            "outro": "./services/outro.txt"
+        }
+    },
+    {
+        "template": "./contact.html",
+        "target": "./contact/index.html",
+        "content": {
+            "intro": "./contact/intro.txt"
+        }
+    }
+]
